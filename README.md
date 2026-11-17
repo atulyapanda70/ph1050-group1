@@ -5,6 +5,6 @@ Semi major axis "a" sampled between 0.5 to 30 AU, while stellar mass between 0.5
 To account for measurement uncertainties also added 3% gaussian noise to calculated orbital periods. (used Claude to generate the code for this)
 
 
-planets (1).csv: I generated a dataset of 300 planets using claude. I used the libraries pandas, numpy and sklearn to train the model on values of the timeperiod based on the semi major axis of the orbit and mass of the planets. The time period was calculated using kepler's thrid law. Upload the planets(1).csv file wj=hile running the file end sem - this covers the first subpart of part 3
+planets (1).csv: I generated a dataset of 300 planets using claude. I used the libraries pandas, numpy and sklearn to train the model on values of the timeperiod based on the semi major axis of the orbit and mass of the planets. The time period was calculated using kepler's thrid law. Upload the planets(1).csv file while running the file end sem - this covers the first subpart of part 3
 
 
