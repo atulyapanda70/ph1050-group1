@@ -14,9 +14,7 @@ part2_1(1).ipynb: This notebook tests Kepler's Third Law on the eight planets of
 
 part3_1.ipynb: upload the dataset planets_300.csv to the notebook while running. the code uses the libraries - numpy, matplotlib, pandas and sklearn. AI made this dataset. The orbital time period was calculated using kepler's law and 3% gaussian noise was added to each period which was calculated based on the generated semi major axis(a) and mass of the star(M). The code runs an implementation of linear regression using sklearn and numpy, calculates the RMSE value and R^2 score value for the errors. My code uses the built in function for linear regresssion, R^2 Score and MSE. I also used numpy to do gradient descent for the linear regression model(alternate implementation). I used an epoch limit and a learning rate to fix the weights and biases. With every epoch the weight and bias updates it self based on the grad calculated by taking a partial differential with respect to the weight or bias. This is back propagation. For the representations there are graphs comparing the coefficients of theoretical formula, built in linear regression and gradient descent implementation of linear regression. There is a plot comparing the predicted log(T) and actual log(T) of both implementations of linear regression. The third graph is the training vs test error graph.
 
-part 3_2.ipynb: This notebooke implements an  Least Squares Linear Regression model using NumPy to predict exoplanet orbital periods (T) from stellar mass (M) and semi-major axis (a).
+part 3_2.ipynb: This notebook implements an  Least Squares Linear Regression model using NumPy to predict exoplanet orbital periods (T) from stellar mass (M) and semi-major axis (a). Numpy, matplotlib, and pandas
 - Kepler law in log-transformations: log T = intercept + beta_a*log(a) + beta_M*log(M)
 -  Trained on interior planets (a < 1 AU; 9 planets) and tested as an extrapolation on outer planets (a > 1AU; 291 planets).
--  Reaches an R^2 of 99.71 and highly accurate  coefficient matches(0,1.5,-0.5)
-
-## Overview
+-  Reaches an R^2 of 99.71 and highly accurate coefficient matches(0,1.5,-0.5)
